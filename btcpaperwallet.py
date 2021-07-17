@@ -31,13 +31,13 @@ print(spaces)
 #PublicKey (Wallet) QRCode Adress
 img = qrcode.make(addr)
 img.save("publicwalletqr.png")
-print("Public Adress QR Code succesfull saved as publicwalletqr.png")
+print("WalletAdress QR Code saved as publicwalletqr.png")
 print(spaces)
 
 #PrivateKey QRCode
 img = qrcode.make(priv)
 img.save("privatekey-qrcode.png")
-print("Private Key QR Code succesfull saved as privatekey-qrcode.png")
+print("PrivateKey QR Code saved as privatekey-qrcode.png")
 print(spaces)
-print("QR Code generate info: ", qrcode.make(addr), qrcode.make(priv))
+
 
