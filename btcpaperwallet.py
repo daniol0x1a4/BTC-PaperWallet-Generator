@@ -40,3 +40,4 @@ img.save("privatekey-qrcode.png")
 print("Private Key QR Code succesfull saved as privatekey-qrcode.png")
 print(spaces)
 print("QR Code generate info: ", qrcode.make(addr), qrcode.make(priv))
+
