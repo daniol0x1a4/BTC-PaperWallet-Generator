@@ -1,5 +1,5 @@
 Funktion:
-- Creates a BTC WalletAdress + PrivateKey and outputs it as clear text and QR Codes
+- creates a Bitcoin WalletAdress + PrivateKey and outputs it as clear text and QR Codes
 
 Usage:
 - install requirements.txt
