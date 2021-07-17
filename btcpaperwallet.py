@@ -8,7 +8,7 @@ import qrcode
 
 #(change out basekey value to create new wallet)
 spaces = "----------------------------------------------"
-basekey = "KHDtL33NLT65p5DjogY$NxgCiJ4F5TqbJ?8cr#5@iegfhqqoifoih56i&/%NF(WDJ7839ß302842ß4082ß408y#BC7RPShFTa#r6!RbkqQhG5YkGk9snTa4px$q9f"
+basekey = "PUT IN YOUR RANDOM CHARACTERS FOR NEW WALLET ADRESS IN HERE"
 
 #PrivateKey
 print(spaces)
