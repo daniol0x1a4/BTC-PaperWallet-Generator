@@ -1,12 +1,8 @@
-
-# Simple BTC Paper Wallet Generator.
-# creates a PrivateKey and WalletAdress and outputs it as clear text and QRCode images
-# {first little script after 2 days of learning python} ~ danielinfosec
-
 from bitcoin import *
 import qrcode
+import string 
+import random
 
-#(change out basekey value to create new wallet)
 spaces = "----------------------------------------------"
 letters = string.ascii_letters + string.digits + string.ascii_lowercase + string.punctuation
 crypto =  ''.join(random.choice(letters) for i in range(10000)) 
